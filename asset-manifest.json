@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/paint-calculator-rm-ink-colorful/static/js/main.f5d47ea1.chunk.js",
+    "main.js.map": "/paint-calculator-rm-ink-colorful/static/js/main.f5d47ea1.chunk.js.map",
+    "runtime-main.js": "/paint-calculator-rm-ink-colorful/static/js/runtime-main.4e783cb5.js",
+    "runtime-main.js.map": "/paint-calculator-rm-ink-colorful/static/js/runtime-main.4e783cb5.js.map",
+    "static/js/2.53b6267e.chunk.js": "/paint-calculator-rm-ink-colorful/static/js/2.53b6267e.chunk.js",
+    "static/js/2.53b6267e.chunk.js.map": "/paint-calculator-rm-ink-colorful/static/js/2.53b6267e.chunk.js.map",
+    "index.html": "/paint-calculator-rm-ink-colorful/index.html",
+    "static/js/2.53b6267e.chunk.js.LICENSE.txt": "/paint-calculator-rm-ink-colorful/static/js/2.53b6267e.chunk.js.LICENSE.txt",
+    "static/media/balde-tinta.7b5b4268.png": "/paint-calculator-rm-ink-colorful/static/media/balde-tinta.7b5b4268.png",
+    "static/media/lata-tinta.1b87fc54.png": "/paint-calculator-rm-ink-colorful/static/media/lata-tinta.1b87fc54.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e783cb5.js",
+    "static/js/2.53b6267e.chunk.js",
+    "static/js/main.f5d47ea1.chunk.js"
+  ]
+}
