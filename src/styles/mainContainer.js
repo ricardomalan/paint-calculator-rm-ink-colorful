@@ -7,7 +7,7 @@ const MainContainer = styled.div`
   width: 100vw;
   height: 100vh;
 
-  img {
+  .img-logo {
     position: absolute;
     transform: scaleX(-1);
     left: 2rem;

@@ -6,24 +6,10 @@ export default createGlobalStyle`
     License: none (public domain)
   */
 
-  html, body, div, span, applet, object, iframe,
-  h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-  a, abbr, acronym, address, big, cite, code,
-  del, dfn, em, img, ins, kbd, q, s, samp,
-  small, strike, strong, sub, sup, tt, var,
-  b, u, i, center,
-  dl, dt, dd, ol, ul, li,
-  fieldset, form, label, legend,
-  table, caption, tbody, tfoot, thead, tr, th, td,
-  article, aside, canvas, details, embed, 
-  figure, figcaption, footer, header, hgroup, 
-  menu, nav, output, ruby, section, summary,
-  time, mark, audio, video {
+  * {
     margin: 0;
     padding: 0;
-    border: 0;
-    font-size: 100%;
-    vertical-align: baseline;
+    box-sizing: border-box;
   }
   /* HTML5 display-role reset for older browsers */
   article, aside, details, figcaption, figure, 
@@ -56,5 +42,105 @@ export default createGlobalStyle`
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  }
+
+  .body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 3%;
+    height: 100%;
+    width: 100%;
+  }
+
+  .body .div-modal {
+    margin-top: 3%;
+    flex-basis: 100%;
+    height: 100px;
+    flex-grow: 2;
+    text-align: center;
+  }
+
+  .card {
+    text-align: center;
+    min-width: 250px;
+    max-width: 270px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all ease 0.3s;
+    scale: 0.8;
+    background-color: #ccc;
+  }
+
+  .card:hover {
+    background-color: #ffe;
+    transform: scale(1.1);
+  }
+
+  .add-item {
+    justify-content: center;
+    margin-top: 25px;
+    flex-direction: column;
+  }
+
+  .add-item .item {
+    padding: 10px;
+    width: 50px;
+    font-size: 20px;
+  }
+
+  .tamanho-janela {
+    margin-top: -5%;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .input-div {
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .input-div .colapse {
+    max-width: 180px;
+    max-height: 50px;
+  }
+  .input-div .alert {
+    font-size: 13px;
+  }
+
+  .tamanho-porta {
+    margin-top: -5%;
+    font-size: 12px;
+    font-weight: 100;
+  }
+
+  .btn {
+    height: 50px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .btn:hover {
+    background-color: #ffe;
+    transform: scale(1.1);
+  }
+
+  .img-tinta {
+    margin-right: 10px;
+  }
+
+  .text-info-modal {
+    margin: 4px 0;
+  }
+
+  .info {
+    text-align: center;
+  }
+
+  .modal-customization {
+    border-radius: 10px;
   }
 `;

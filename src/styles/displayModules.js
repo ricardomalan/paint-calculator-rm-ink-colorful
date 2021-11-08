@@ -1,14 +1,14 @@
 import styled from 'styled-components';
 
 export const HeaderModule = styled.section`
-  height: 70px;
+  height: 6.8rem;
   border: 0.375rem solid #e64636;
   border-radius: 0.375rem;
   border-top: 0;
   margin: 9.25rem 4.25rem 1.25rem 6.25rem;
   padding: 1.5625rem;
   color: #fff;
-  font-size: 24px;
+  font-size: 1.5rem;
   line-height: 1.5;
 
   &::before {
