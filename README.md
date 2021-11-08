@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# Paint Calculator - RM Ink Colorful
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Application to calculate how much paint you would need to paint a room with 4 walls.
 
-## Available Scripts
+![Capa do Projeto](/public/previewSite.jpeg)
 
-In the project directory, you can run:
+Veja a [demonstração](https://ricardomalan.github.io/paint-calculator-rm-ink-colorful/).
 
-### `yarn start`
+## Tecnologias
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[React](https://reactjs.org/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+[Material-UI](https://mui.com/pt/)
 
-### `yarn test`
+[Styled components](https://styled-components.com/)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Rodar a aplicação localmente
 
-### `yarn build`
+1. Clone o repositório
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+git clone https://github.com/ricardomalan/paint-calculator-rm-ink-colorful.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+2. Instale as dependências
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+yarn install
+```
 
-### `yarn eject`
+3. Inicie a aplicação
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+yarn start
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+4. Acesse `http://localhost:3000`
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Deploy
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+[GitHub-Pages](https://docs.github.com/pt/pages/getting-started-with-github-pages/creating-a-github-pages-site)
 
-## Learn More
+# Autor
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+<table>
+  <tr>
+    <td align="center"><a href="https://github.com/ricardomalan"><img src="https://avatars.githubusercontent.com/u/53584223?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Ricardo Malan</b></sub></a><br /><a href="https://github.com/ricardomalan/animesquiz/commits?author=ricardomalan" title="Code">💻</a>
+    </td>
+  </tr>
+</table>
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[![license mit](https://img.shields.io/badge/license-MIT-brightgreen?style=flat-square)](https://github.com/ricardomalan/paint-calculator-rm-ink-colorful/blob/main/LICENSE)
