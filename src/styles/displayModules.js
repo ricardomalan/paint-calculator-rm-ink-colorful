@@ -23,4 +23,8 @@ export const HeaderModule = styled.section`
     width: 2.5rem;
     z-index: 2;
   }
+
+  @media only screen and (max-width: 1366px) {
+    font-size: 1rem;
+  }
 `;
