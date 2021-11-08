@@ -23,17 +23,4 @@ export const HeaderModule = styled.section`
     width: 2.5rem;
     z-index: 2;
   }
-
-  &::after {
-    background: #e64636;
-    border: 0.1875rem solid #fff;
-    border-radius: 50%;
-    content: '';
-    height: 0.75rem;
-    position: absolute;
-    right: 3.9rem;
-    top: 8.9rem;
-    width: 0.75rem;
-    z-index: 2;
-  }
 `;

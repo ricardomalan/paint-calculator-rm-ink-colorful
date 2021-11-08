@@ -21,18 +21,19 @@ function Parede({ paredeId }) {
   function atualizarMetrosQuadrados() {
     const totalDeMetrosQuadrados =
       paredes[paredeId].comprimento * paredes[paredeId].altura;
+
+    setParedes(
+      [...paredes],
+      (paredes[paredeId].tamanho = totalDeMetrosQuadrados)
+    );
+    setParedes(
+      [...paredes],
+      (paredes[paredeId].tamanhoDisponivel = totalDeMetrosQuadrados / 2)
+    );
     if (
       totalDeMetrosQuadrados <= TAMANHO_MAXIMO_PAREDE &&
       totalDeMetrosQuadrados >= TAMANHO_MINIMO_PAREDE
     ) {
-      setParedes(
-        [...paredes],
-        (paredes[paredeId].tamanho = totalDeMetrosQuadrados)
-      );
-      setParedes(
-        [...paredes],
-        (paredes[paredeId].tamanhoDisponivel = totalDeMetrosQuadrados / 2)
-      );
       setParedes([...paredes], (paredes[paredeId].tamanhoError = false));
     } else {
       setParedes([...paredes], (paredes[paredeId].tamanhoError = true));

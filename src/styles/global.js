@@ -38,6 +38,7 @@ export default createGlobalStyle`
       sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background-color: #121421;
   }
   code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
